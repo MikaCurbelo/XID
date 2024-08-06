@@ -120,14 +120,23 @@
             <div class=" gridContainer">        
                 <div><img src="img/img-grid/guitarra-santi-min.jpeg" alt="Toque en El rock es la Cultura"></div>
                 <div class="gridTexto"><h3>Disfraz</h3><p>...No quiero tocar, debajo del disfraz, tenfo miedo de encontrar una alma vacía..</p>
-                    <a href="#" class="reproducir">Reproducir</a></div>
+                    <a  class="reproducir1" onclick="reproducirDisfraz()">Reproducir</a> 
+                    <audio id="disfraz">
+                        <source src="/audios/Disfraz.wav">
+                    </audio>
+                </div>
                 <div><img src="img/img-grid/banda.jpg" alt="Banda en Inmigrantes"> </div>   
                 <div class="gridTexto"><h3>Mi verdad</h3><p>..Una grieta se abre en la pared yo vivo ahí adentro, 
                     al final hay mas de lo que ves aunque no queramos verl La caída se hace larga y la calma no volvio, 
                     voy dejando garabatos que suplantan a mi voz..</p>
-                    <a href="https://www.youtube.com/watch?v=VBuZOfPMzmQ" class="reproducir">Reproducir</a></div>
+                    <a href="https://www.youtube.com/watch?v=VBuZOfPMzmQ" class="reproducir">Video</a></div>
                 <div class="gridTexto"><h3>Mochilero</h3><p>...Voy como mochilero, no importa el dinero, solo quiero disfrutar de la vista. 
-                    La unica factura que que quiero pagar es la que cuesta vivir así...</p><a href="#" class="reproducir">Reproducir</a></div>
+                    La unica factura que que quiero pagar es la que cuesta vivir así...</p>
+                    <a class="reproducir2" onclick=" reproducirMochilero()">Reproducir</a>
+                    <audio id="mochilero">
+                        <source src="/audios/Mochilero.wav">
+                    </audio>
+                </div>
                 <div><img src="img/img-grid/santi-y-roy.jpg" alt="Concierto en inmigrantes roy y satnti="></div>
                 <div><img src="img/img-grid/roy-santi-pomelo-mika-min.jpeg" alt="Toque en inmigrantes bar."></div>
                 <div><img src="img/img-grid/ale-min.jpg" alt="Alexis en El rock es la Cultura"></div>
@@ -168,4 +177,5 @@
         </div>
     </footer>
 </body>
+<script src="js/codigo.js"></script>
 </html>
