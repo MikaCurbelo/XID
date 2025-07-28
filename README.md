@@ -1,1 +1,1 @@
-./img/muestra.gif
+./img/muestra_mp4.gif
