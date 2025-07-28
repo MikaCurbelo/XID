@@ -1,1 +1,1 @@
-./img/muestra_mp4.gif
+![Demo de la landing](./img/muestra_mp4.gif)
